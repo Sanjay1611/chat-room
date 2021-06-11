@@ -40,7 +40,6 @@ func newRouter() *gin.Engine {
 	gin.EnableJsonDecoderDisallowUnknownFields()
 	router := gin.Default()
 
-	_ = router.Group("/v1")
 	return router
 }
 
